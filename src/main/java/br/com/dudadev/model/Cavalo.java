@@ -6,12 +6,12 @@ public class Cavalo extends Animal{
     }
 
     @Override
-    void emitirSom() {
+    public void emitirSom() {
         System.out.println("O cavalo está relinchando");
     }
 
     @Override
-    void moverSe() {
+    public void moverSe() {
         System.out.println("O cavalo está correndo");
     }
 }

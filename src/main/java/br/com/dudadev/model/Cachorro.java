@@ -7,12 +7,12 @@ public class Cachorro extends Animal{
     }
 
     @Override
-    void emitirSom() {
+    public void emitirSom() {
         System.out.println("O cachorro está latindo");
     }
 
     @Override
-    void moverSe() {
+    public void moverSe() {
         System.out.println("O cachorro está correndo");
     }
 }
