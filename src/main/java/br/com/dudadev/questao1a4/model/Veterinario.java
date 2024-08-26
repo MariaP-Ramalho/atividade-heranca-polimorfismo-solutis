@@ -1,4 +1,4 @@
-package br.com.dudadev.model;
+package br.com.dudadev.questao1a4.model;
 
 public class Veterinario {
     public void examinar(Animal animal){

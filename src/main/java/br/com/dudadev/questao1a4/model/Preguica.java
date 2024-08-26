@@ -1,6 +1,11 @@
-package br.com.dudadev.model;
+package br.com.dudadev.questao1a4.model;
+
 
 public class Preguica extends Animal{
+
+    public Preguica(){
+        super();
+    }
     public Preguica(String nome, int idade) {
         super(nome, idade);
     }

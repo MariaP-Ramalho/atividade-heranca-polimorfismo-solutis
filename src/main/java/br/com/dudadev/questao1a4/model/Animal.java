@@ -1,8 +1,13 @@
-package br.com.dudadev.model;
+package br.com.dudadev.questao1a4.model;
 
 public abstract class Animal {
     private String nome;
     private int idade;
+
+    public Animal(){
+        this.nome = "Não informado";
+        this.idade = 0;
+    }
 
     public Animal(String nome, int idade){
         this.nome = nome;
