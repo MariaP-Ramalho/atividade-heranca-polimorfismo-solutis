@@ -27,5 +27,4 @@ public abstract class Animal {
 
     abstract void emitirSom();
 
-    abstract void moverSe();
 }

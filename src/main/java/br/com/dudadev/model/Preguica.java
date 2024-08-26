@@ -10,8 +10,7 @@ public class Preguica extends Animal{
         System.out.println("A preguiça está chiando");
     }
 
-    @Override
-    public void moverSe() {
+    public void escalar() {
         System.out.println("A preguiça está subindo em árvores");
     }
 }

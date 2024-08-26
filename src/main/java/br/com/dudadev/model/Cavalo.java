@@ -10,8 +10,7 @@ public class Cavalo extends Animal{
         System.out.println("O cavalo está relinchando");
     }
 
-    @Override
-    public void moverSe() {
+    public void correr() {
         System.out.println("O cavalo está correndo");
     }
 }
