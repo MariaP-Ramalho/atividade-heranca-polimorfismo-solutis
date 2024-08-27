@@ -1,6 +1,6 @@
 package br.com.dudadev.questao5;
 
-public class FuncionarioGraduacao extends Funcionario{
+public class FuncionarioGraduacao extends FuncionarioEnsinoMedio{
     private String universidade;
 
     public FuncionarioGraduacao(){
@@ -8,8 +8,9 @@ public class FuncionarioGraduacao extends Funcionario{
         this.universidade = "Não informado";
     }
 
-    public FuncionarioGraduacao(String nome, int codigoFuncional, String universidade){
-        super(nome, codigoFuncional);
+    public FuncionarioGraduacao(String nome, int codigoFuncional,String escolaBasico,
+                                String escolaMedio, String universidade){
+        super(nome, codigoFuncional, escolaBasico, escolaMedio);
         this.universidade = universidade;
     }
 

@@ -2,6 +2,7 @@ package br.com.dudadev.questao5;
 
 public class Funcionario {
     private String nome;
+
     private int codigoFuncional;
 
     public Funcionario(){
