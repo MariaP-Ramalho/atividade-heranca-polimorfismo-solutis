@@ -30,7 +30,6 @@ public class FuncionarioGraduacao extends FuncionarioEnsinoMedio {
     @Override
     public String toString() {
         return super.toString() +
-                "Universidade: " + universidade +
-                ", Renda Total: " + this.getRendaTotal();
+                "Universidade: " + universidade;
     }
 }

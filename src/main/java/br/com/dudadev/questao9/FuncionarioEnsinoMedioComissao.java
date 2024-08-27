@@ -1,15 +1,17 @@
-package br.com.dudadev.questao5a7.model;
+package br.com.dudadev.questao9;
 
-public class FuncionarioEnsinoMedio extends FuncionarioEnsinoBasico {
+import br.com.dudadev.questao5a7.model.FuncionarioEnsinoBasico;
+
+public class FuncionarioEnsinoMedioComissao extends FuncionarioEnsinoBasicoComissao {
     private String escolaMedio;
 
-    public FuncionarioEnsinoMedio(){
+    public FuncionarioEnsinoMedioComissao(){
         super();
         this.escolaMedio = "Não informado";
     }
 
-    public FuncionarioEnsinoMedio(String nome, int codigoFuncional, String escolaBasico, String escolaMedio){
-        super(nome, codigoFuncional, escolaBasico);
+    public FuncionarioEnsinoMedioComissao(String nome, int codigoFuncional, double comissao, String escolaBasico, String escolaMedio){
+        super(nome, codigoFuncional, comissao, escolaBasico);
         this.escolaMedio = escolaMedio;
     }
 
@@ -23,7 +25,7 @@ public class FuncionarioEnsinoMedio extends FuncionarioEnsinoBasico {
 
     @Override
     public double getRendaTotal() {
-        return super.getRendaTotal() * (1 + 0.50);
+        return (super.getRendaTotal() * (1 + 0.50)) + getComissao();
     }
 
     @Override
