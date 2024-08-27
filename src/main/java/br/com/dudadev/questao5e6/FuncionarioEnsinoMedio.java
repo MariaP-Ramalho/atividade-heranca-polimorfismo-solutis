@@ -29,6 +29,7 @@ public class FuncionarioEnsinoMedio extends FuncionarioEnsinoBasico {
     @Override
     public String toString() {
         return super.toString() +
-                ", escola EM: " + escolaMedio;
+                ", escola EM: " + escolaMedio +
+                ", Renda Total: " + rendaTotal();
     }
 }

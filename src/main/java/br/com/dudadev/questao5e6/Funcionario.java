@@ -41,6 +41,7 @@ public class Funcionario {
     @Override
     public String toString() {
         return "Nome: " + nome +
-                ", Codigo Funcional: " + codigoFuncional;
+                ", Codigo Funcional: " + codigoFuncional +
+                ", Renda Total: " + rendaTotal();
     }
 }
