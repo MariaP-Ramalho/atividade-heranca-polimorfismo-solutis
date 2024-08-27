@@ -1,16 +1,18 @@
-package br.com.dudadev.questao5;
+package br.com.dudadev.questao5e6;
 
 public class Funcionario {
+
+    private double rendaBasica;
     private String nome;
 
     private int codigoFuncional;
 
-    public Funcionario(){
+    public Funcionario() {
         this.nome = "Não informado";
         this.codigoFuncional = 0;
     }
 
-    public Funcionario(String nome, int codigoFuncional){
+    public Funcionario(String nome, int codigoFuncional) {
         this.nome = nome;
         this.codigoFuncional = codigoFuncional;
     }
@@ -30,6 +32,11 @@ public class Funcionario {
     public void setCodigoFuncional(int codigoFuncional) {
         this.codigoFuncional = codigoFuncional;
     }
+
+    public double rendaTotal() {
+        return rendaBasica;
+    }
+
 
     @Override
     public String toString() {

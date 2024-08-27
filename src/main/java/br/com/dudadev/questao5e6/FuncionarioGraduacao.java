@@ -1,4 +1,4 @@
-package br.com.dudadev.questao5;
+package br.com.dudadev.questao5e6;
 
 public class FuncionarioGraduacao extends FuncionarioEnsinoMedio{
     private String universidade;
@@ -20,6 +20,11 @@ public class FuncionarioGraduacao extends FuncionarioEnsinoMedio{
 
     public void setUniversidade(String universidade) {
         this.universidade = universidade;
+    }
+
+    @Override
+    public double rendaTotal() {
+        return super.rendaTotal() * (1 + 1.0);
     }
 
     @Override
