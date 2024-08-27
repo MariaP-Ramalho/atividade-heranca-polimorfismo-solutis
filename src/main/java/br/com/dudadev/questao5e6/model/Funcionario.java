@@ -1,8 +1,8 @@
-package br.com.dudadev.questao5e6;
+package br.com.dudadev.questao5e6.model;
 
 public class Funcionario {
 
-    private double rendaBasica;
+    private double rendaBasica = 1000;
     private String nome;
 
     private int codigoFuncional;

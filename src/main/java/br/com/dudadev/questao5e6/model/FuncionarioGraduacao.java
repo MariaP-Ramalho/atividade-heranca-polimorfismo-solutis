@@ -1,6 +1,8 @@
-package br.com.dudadev.questao5e6;
+package br.com.dudadev.questao5e6.model;
 
-public class FuncionarioGraduacao extends FuncionarioEnsinoMedio{
+import br.com.dudadev.questao5e6.model.FuncionarioEnsinoMedio;
+
+public class FuncionarioGraduacao extends FuncionarioEnsinoMedio {
     private String universidade;
 
     public FuncionarioGraduacao(){
