@@ -1,6 +1,4 @@
-package br.com.dudadev.questao5e6.model;
-
-import br.com.dudadev.questao5e6.model.FuncionarioEnsinoMedio;
+package br.com.dudadev.questao5a7.model;
 
 public class FuncionarioGraduacao extends FuncionarioEnsinoMedio {
     private String universidade;
@@ -25,14 +23,14 @@ public class FuncionarioGraduacao extends FuncionarioEnsinoMedio {
     }
 
     @Override
-    public double rendaTotal() {
-        return super.rendaTotal() * (1 + 1.0);
+    public double getRendaTotal() {
+        return super.getRendaTotal() * (1 + 1.0);
     }
 
     @Override
     public String toString() {
         return super.toString() +
                 "Universidade: " + universidade +
-                ", Renda Total: " + rendaTotal();
+                ", Renda Total: " + this.getRendaTotal();
     }
 }

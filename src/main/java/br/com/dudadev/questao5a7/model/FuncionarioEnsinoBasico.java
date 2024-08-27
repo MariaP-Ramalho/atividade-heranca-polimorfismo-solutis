@@ -1,6 +1,4 @@
-package br.com.dudadev.questao5e6.model;
-
-import br.com.dudadev.questao5e6.model.Funcionario;
+package br.com.dudadev.questao5a7.model;
 
 public class FuncionarioEnsinoBasico extends Funcionario {
     private String escolaBasico;
@@ -24,14 +22,14 @@ public class FuncionarioEnsinoBasico extends Funcionario {
     }
 
     @Override
-    public double rendaTotal() {
-        return super.rendaTotal() * (1 + 0.10);
+    public double getRendaTotal() {
+        return super.getRendaTotal() * (1 + 0.10);
     }
 
     @Override
     public String toString() {
         return super.toString() +
                 ", Escola EF: " + escolaBasico +
-                ", Renda Total: " + rendaTotal();
+                ", Renda Total: " + getRendaTotal();
     }
 }

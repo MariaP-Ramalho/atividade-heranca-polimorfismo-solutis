@@ -1,4 +1,4 @@
-package br.com.dudadev.questao5e6.model;
+package br.com.dudadev.questao5a7.model;
 
 public class Funcionario {
 
@@ -33,7 +33,7 @@ public class Funcionario {
         this.codigoFuncional = codigoFuncional;
     }
 
-    public double rendaTotal() {
+    public double getRendaTotal() {
         return rendaBasica;
     }
 
@@ -42,6 +42,6 @@ public class Funcionario {
     public String toString() {
         return "Nome: " + nome +
                 ", Codigo Funcional: " + codigoFuncional +
-                ", Renda Total: " + rendaTotal();
+                ", Renda Total: " + getRendaTotal();
     }
 }

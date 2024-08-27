@@ -1,9 +1,9 @@
-package br.com.dudadev.questao5e6;
+package br.com.dudadev.questao5a7;
 
-import br.com.dudadev.questao5e6.model.Funcionario;
-import br.com.dudadev.questao5e6.model.FuncionarioEnsinoBasico;
-import br.com.dudadev.questao5e6.model.FuncionarioEnsinoMedio;
-import br.com.dudadev.questao5e6.model.FuncionarioGraduacao;
+import br.com.dudadev.questao5a7.model.Funcionario;
+import br.com.dudadev.questao5a7.model.FuncionarioEnsinoBasico;
+import br.com.dudadev.questao5a7.model.FuncionarioEnsinoMedio;
+import br.com.dudadev.questao5a7.model.FuncionarioGraduacao;
 
 public class Empresa {
 
@@ -39,7 +39,7 @@ public class Empresa {
         double custoGraduacao = 0.0;
 
         for (Funcionario funcionario : funcionarios) {
-            double salario = funcionario.rendaTotal();
+            double salario = funcionario.getRendaTotal();
             custoTotal += salario;
 
             if (funcionario instanceof FuncionarioGraduacao) {
