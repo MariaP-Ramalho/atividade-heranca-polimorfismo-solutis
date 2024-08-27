@@ -1,4 +1,4 @@
-package br.com.dudadev.questao9;
+package br.com.dudadev.questao9e10.model;
 
 public class FuncionarioEnsinoBasicoComissao extends FuncionarioComissao {
     private String escolaBasico;

@@ -1,6 +1,4 @@
-package br.com.dudadev.questao9;
-
-import br.com.dudadev.questao5a7.model.FuncionarioEnsinoBasico;
+package br.com.dudadev.questao9e10.model;
 
 public class FuncionarioEnsinoMedioComissao extends FuncionarioEnsinoBasicoComissao {
     private String escolaMedio;
